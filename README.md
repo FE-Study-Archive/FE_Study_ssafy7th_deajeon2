@@ -70,5 +70,7 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 ### 2022.02.
 
 [2022.02.04.] 스터디 구성 완료
+
 [2022.02.04.] 스터디 첫 회의
+
 [2022.02.04.] Github Repository Create 및 Fork

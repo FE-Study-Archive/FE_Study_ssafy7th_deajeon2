@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loop</title>
+</head>
+<body>
+  <h1>Loop & Array</h1>
+  <h2>Coworkers1</h2>
+  <ul>
+    <li>egoing</li>
+    <li>leezche</li>
+    <li>duru</li>
+    <li>taeho</li>
+  </ul>
+
+  <script>
+    let coworkers = ['egoing', 'leezche', 'duru', 'taeho'];
+  </script>
+
+  <h2>Coworkers2</h2>
+  <ul>
+    <script>
+      var i = 0;
+      while(i < coworkers.length){
+        document.write('<li>' + coworkers[i] + '</li>');
+        i++;
+      }
+    </script>
+  </ul>
+
+  <h2>Let's Think 1</h2>
+  <ol>
+    <script>
+      var fruits = ['apple', 'banana', 'coconut'];
+      var i = 0;
+  
+      while(i < fruits.length){  
+          document.write('<li>'+ fruits[i] +'</li>');
+          i++;
+      }
+    </script>
+  </ol>
+
+  <h2>Let's Think 2</h2>
+  <ul>
+    <script>
+      var fruits = ['apple', 'banana', 'coconut'];
+      var i = 0;
+
+      while(i < fruits.length){
+        document.write('<li>'+ (i+1) + '. ' + fruits[i]+ '</li>')
+        i++;
+      }
+    </script>
+  </ul>
+
+  <h2>Let's Think 3</h2>
+  <ul>
+    <script>
+      var fruits = ['apple', 'banana', 'coconut'];
+      var i = 0;
+
+      fruits.forEach(function(item, index, array){
+        document.write('<li>' + (index+1) + '. ' + item + '</li>');
+      })
+    </script>
+  </ul>
+
+</body>
+</html>

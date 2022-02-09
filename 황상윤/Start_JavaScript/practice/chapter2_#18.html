@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<input id="night_day" type="button" value="night" onclick="
+  var target = document.querySelector('body');
+  if(this.value === 'night'){
+  target.style.backgroundColor = 'black';
+  target.style.color = 'white';
+  this.value = 'day'
+} else {
+  target.style.backgroundColor = 'white';
+  target.style.color = 'black';
+  this.value = 'night'
+}
+">
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, ab officia quos perferendis nesciunt nisi asperiores quibusdam alias iusto repellat suscipit totam, ea, accusantium officiis molestias voluptates neque reiciendis veniam?</p>
+<input id="night_day" type="button" value="night" onclick="
+  if(this.value === 'night'){
+  target.style.backgroundColor = 'black';
+  target.style.color = 'white';
+  this.value = 'day'
+} else {
+  target.style.backgroundColor = 'white';
+  target.style.color = 'black';
+  this.value = 'night'
+}
+">
+</body>
+</html>

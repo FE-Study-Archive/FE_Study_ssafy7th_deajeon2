@@ -31,3 +31,13 @@
 - [2.3. 배열](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_5/)
 
 - [2.4. 반복문](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_6/)
+
+<br>
+
+### Chapter 03 : Javascript 함수
+
+완료 일자 : 2022.02.07.
+
+내용 정리
+
+- [3. 함수](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_7/)

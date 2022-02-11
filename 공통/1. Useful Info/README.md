@@ -44,6 +44,8 @@ HTML, CSS, JS 코드를 한목에 바로 실행하여 결과를 볼 수 있으�
 
 <br>
 
+### [1분코딩 Studiomeal](https://studiomeal.com/archives/category/tutorial)
+
 ---
 
 ## HTML
@@ -66,6 +68,10 @@ HTML 개발을 수월하게 해주는 `Emmet` 문법의 총집합
 
 <br>
 
+### [HTML CheatSheet](https://htmlcheatsheet.com/)
+
+HTML 관련 태그들과 태그 제작
+
 ---
 
 ## CSS
@@ -81,6 +87,10 @@ CSS Selector를 시각적으로 확인하며 재미있게 실습할 수 있는 �
 Flex display를 시각적으로 확인하며 재미있게 실습할 수 있는 사이트
 
 <br>
+
+### [Animate.css](https://animate.style/)
+
+CSS Animation 관련 사이트
 
 <br>
 
@@ -162,4 +172,5 @@ CSS 파일을 작성할 때 더욱 편의를 제공하는 언어. SASS, SCSS, LE
 ## 기타 블로그
 
 - [HEROPY Tech](https://heropy.blog/)
+- [SSAFY 3기 Line 취뽀자의 CS 공부](https://yongjoonseo.dev/thoughts/retrospection/Retro0001/)
 - [kakao FE 플랫폼팀 블로그](https://tech.kakao.com/2020/05/26/recruit-frontend-engineer/)

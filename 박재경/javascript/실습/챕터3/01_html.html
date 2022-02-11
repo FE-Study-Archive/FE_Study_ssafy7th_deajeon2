@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script>
+  function nightDayHandler(self){
+    var target = document.querySelector('body');
+    if(self.value === 'night'){
+      target.style.backgroundColor = 'black';
+      self.value = 'day';
+      // 야간 모드일 때, 링크 색상을 변경
+      // querySelectorAll이 찾은 모든 a 태그를 배열 형태로 alist에 저장하게 된다.
+      var alist = document.querySelectorAll('a');
+      var i = 0
+      while(i < alist.length){
+        alist[i].style.color = 'powderblue';
+        i = i + 1
+      }
+    } else{
+      target.style.backgroundColor = 'white';
+      self.value = 'night';
+      // 주간 모드일 떄, 링크 색상을 변경
+      var alist = document.querySelectorAll('a');
+      var i = 0
+      while(i < alist.length){
+        alist[i].style.color = 'blue';
+        i = i + 1
+      }
+    }
+  } 
+  </script>
+</head>
+<body>
+<input type="button" value="night" onclick="
+  // nightDayHandler라는 함수를 실행시켜라!
+  nightDayHandler(this)
+  "><br>
+  <a href="https://www.naver.com/">네이버</a>
+</body>
+</html>

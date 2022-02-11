@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="button" value="night" onclick="
+    var target = document.querySelector('body');
+    if(this.value === 'night'){
+      target.style.backgroundColor = 'black';
+      this.value = 'day';
+      // 야간 모드일 때, 링크 색상을 변경
+      // querySelectorAll이 찾은 모든 a 태그를 배열 형태로 alist에 저장하게 된다.
+      var alist = document.querySelectorAll('a');
+      var i = 0
+      while(i < alist.length){
+        alist[i].style.color = 'powderblue';
+        i = i + 1
+      }
+    } else{
+      target.style.backgroundColor = 'white';
+      this.value = 'night';
+      // 주간 모드일 떄, 링크 색상을 변경
+      var alist = document.querySelectorAll('a');
+      var i = 0
+      while(i < alist.length){
+        alist[i].style.color = 'blue';
+        i = i + 1
+      }
+    }
+  "><br>
+  <a href="https://www.naver.com/">네이버</a>
+</body>
+</html>

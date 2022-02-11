@@ -6,12 +6,22 @@
   <meta name="viewport" content="width=>, initial-scale=1.0">
   <title>Document</title>
   <script>
-    function LinksetColor(color){
-      var alist = document.querySelectorAll('a');
-      var i = 0;
-      while(i < alist.length){
-        alist[i].style.color = color;
-        i = i + 1;
+    var Links = {
+        setColor: function (color){
+        var alist = document.querySelectorAll('a');
+        var i = 0;
+        while(i < alist.length){
+          alist[i].style.color = color;
+          i = i + 1;
+        }
+      }
+    }
+    var Body = {
+      setColor:function (color){
+        document.querySelector('body').style.color = color;
+      },
+      setBackgroundColor:function (color){
+        document.querySelector('body').style.backgroundColor = color;
       }
     }
     function BodysetColor(color){

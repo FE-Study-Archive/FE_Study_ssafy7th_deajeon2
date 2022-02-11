@@ -41,3 +41,13 @@
 내용 정리
 
 - [3. 함수](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_7/)
+
+<br>
+
+### Chapter 04 : Javascript 객체 소개
+
+완료 일자 : 2022.02.12.
+
+내용 정리
+
+- [4. 객체](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_8/)

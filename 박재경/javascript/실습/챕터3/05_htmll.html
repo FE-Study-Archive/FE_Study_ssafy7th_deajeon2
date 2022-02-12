@@ -5,15 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-</head>
-<body>
-  <input type="button" value="night" onclick="
+  <script>
+  function nightDayHandler(self){
     var target = document.querySelector('body');
-    if(this.value === 'night'){
+    if(self.value === 'night'){
       target.style.backgroundColor = 'black';
-      this.value = 'day';
-      // 야간 모드일 때, 링크 색상을 변경
-      // querySelectorAll이 찾은 모든 a 태그를 배열 형태로 alist에 저장하게 된다.
+      self.value = 'day';
       var alist = document.querySelectorAll('a');
       var i = 0
       while(i < alist.length){
@@ -22,8 +19,7 @@
       }
     } else{
       target.style.backgroundColor = 'white';
-      this.value = 'night';
-      // 주간 모드일 떄, 링크 색상을 변경
+      self.value = 'night';
       var alist = document.querySelectorAll('a');
       var i = 0
       while(i < alist.length){
@@ -31,7 +27,13 @@
         i = i + 1
       }
     }
-  "><br>
+  }
+  </script>
+</head>
+<body>
+  <input type="button" value="night" onclick="nightDayHandler(this)"><br>
+  <input type="button" value="night" onclick="nightDayHandler(this)"><br>
+  <input type="button" value="night" onclick="nightDayHandler(this)"><br>
   <a href="https://www.naver.com/">네이버</a>
 </body>
 </html>

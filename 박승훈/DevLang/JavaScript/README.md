@@ -60,7 +60,7 @@
 
 내용 정리
 
-- [5. jQuery, UI와 API, JS 검색 카워드](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_9/)
+- [5. jQuery, UI와 API, JS 검색 키워드](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_9/)
 
 <br>
 

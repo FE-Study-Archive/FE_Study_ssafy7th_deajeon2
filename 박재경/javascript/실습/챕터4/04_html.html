@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 배열은 순서에 따라 정보를 정리 정돈한다. => 인덱스를 활용하여 특정 순서의 정보를 추출 가능하다. -->
+  <!-- 객체는 순서가 없다. 대신, 이름이 있는 정리정돈 상자이다. => 이름을 활용하여 꺼낼 수 있다. -->  
+  <h1>Object</h1>
+  <h2>Create</h2>
+  <script>
+    // 객체 생성
+    var foods = {
+      "favorite" : "chicken",
+      "hate" : "pizza"
+    };
+
+    // 객체 출력
+    document.write("favorite : "+foods.favorite+"<br>"); // favorite : chicken
+    document.write("hate : "+foods.hate+"<br>"); // hate : pizza
+    
+    // 객체에 요소를 추가 하는 방법 1
+    foods.soso = "bread";
+    document.write("soso : " +foods.soso+"<br>"); // soso : bread
+    
+    // 객체에 요소를 추가 하는 방법 2
+    foods["yammy"] = "apple-jam";
+    document.write("yammy : " +foods.swsome+"<br>"); // yammy : undefined
+  </script> 
+
+  <h2>Iterate</h2>
+  <script>
+    // 정보에 도달할 수 있는 열쇠는 앞서 객체를 생성할 때 붙인 이름들이다. 즉, key = 데이터의 이름들을 의미한다.
+    // 반대로 배열에서는 순서대로 정리정돈 되어 있기때문에 인덱스라고 부른다. 
+    for (var key in foods) { 
+      document.write(key + '<br>'); // favorite <br> hate <br> soso <br> yammy
+    }
+
+    for (var key in foods) {
+      document.write(foods[key]+'<br>'); //chicken <br> pizza <br> bread <br> apple-jam
+    }
+
+    for (var key in foods) {
+      document.write(key+' : '+foods[key]+'<br>'); //favorite : chicken <br> hate : pizza <br> soso : bread <br> yammy : apple-jam
+    }
+  </script>
+  <!-- 객체에는 데이터뿐만 아니라 함수도 저장할 수 있다.  -->
+  <h3>Property & Method</h3>
+  <script>
+    // 객체에 소속된 변수의 값으로 함수를 지정. 즉, 객체에 소속된 함수를 만들 수 있다. 
+    // 객체에 소속된 함수는 메서드라고 부른다.
+    // 객체에 소속된 변수는 프로퍼티라고 부른다. 
+    // 메서드가 쓰인 객체를 가르키는 것이 'this'이다. 
+    foods.showAll = function(){
+      for (var key in this) {
+      document.write(key+' : '+this[key]+'<br>');
+      }
+    }
+    foods.showAll();
+  </script>
+</body>
+</html>

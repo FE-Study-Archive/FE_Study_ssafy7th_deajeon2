@@ -7,7 +7,7 @@
 
 - 박승훈 : Chapter05 #37
 - 박재경 : Chapter02 #23
-- 박재현 : Chapter05 #37
+- 박재현 : Chapter06 #6_3
 - 이원우 : 
 - 이윤경 : Chapter04 #33
 - 황상윤 :

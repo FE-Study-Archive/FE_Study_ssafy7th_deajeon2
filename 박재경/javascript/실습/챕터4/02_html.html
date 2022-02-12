@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+    <!-- 배열은 순서에 따라 정보를 정리 정돈한다. => 인덱스를 활용하여 특정 순서의 정보를 추출 가능하다. -->
+  <!-- 객체는 순서가 없다. 대신, 이름이 있는 정리정돈 상자이다. => 이름을 활용하여 꺼낼 수 있다. -->  
+  <h1>Object</h1>
+  <h2>Create</h2>
+  <script>
+    // 객체 생성
+    var foods = {
+      "favorite" : "chicken",
+      "hate" : "pizza"
+    };
+
+    // 객체 출력
+    document.write("favorite : "+foods.favorite+"<br>");
+    document.write("hate : "+foods.hate+"<br>");
+    
+    // 객체에 요소를 추가 하는 방법 1
+    foods.soso = "bread";
+    document.write("soso : " +foods.soso+"<br>");
+    
+    // 객체에 요소를 추가 하는 방법 2
+    foods["yammy"] = "apple-jam";
+    document.write("yammy : " +foods.swsome+"<br>");
+  </script> 
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<body>
+  <h1>Object</h1>
+  <h2>Create</h2>
+  <script>
+    // 객체의 literal은 중괄호, 배열의 literal은 대괄호
+    var coworkers = {
+      "programmer":"egoing",
+      "designer":"leezche"
+    };
+
+    document.write('programmer : ' + coworkers.programmer + '<br>');
+    document.write('designer : ' + coworkers.designer + "<br>");
+    coworkers.bookkeeper = 'duru';
+    document.write("bookkeeper : "+coworkers.bookkeeper+"<br>")
+    coworkers["data scientist"] = 'taeho'
+    document.write("data scientist : "+coworkers["data scientist"]+"<br>")
+  </script>
+
+  <h2>Iteration</h2>
+  <script>
+    for(var key in coworkers){
+      document.write(key + " : " +coworkers[key]+ "<br>")
+    }
+  </script>
+
+  <script>
+    // let's think
+    var countries = {
+      "asia":"korea",
+      "europe":"england"
+    }
+
+    for(var key in countries){
+      document.write(key + " : " + countries[key] + "<br>")
+    }
+  </script>
+</body>
+</html>

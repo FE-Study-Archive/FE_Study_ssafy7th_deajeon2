@@ -8,8 +8,13 @@
 - 김지영 :
 - 박승훈 : Chapter06 #10
 - 박재경 : Chapter02 #23
+<<<<<<< HEAD
 - 박재현 : Chapter06 #6_3
 - 이원우 : Chpater05 #34
+=======
+- 박재현 : Chapter06 #10
+- 이원우 : Chpater03 #28
+>>>>>>> bc2d1357a98c55d90a088dc16734579ac7af76ac
 - 이윤경 : Chapter04 #33
 - 황상윤 : Chapter04 #33
 ```

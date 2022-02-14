@@ -8,7 +8,7 @@
 - 김지영 :
 - 박승훈 : Chapter06 #10
 - 박재경 : Chapter02 #23
-- 박재현 : Chapter06 #6_3
+- 박재현 : Chapter06 #10
 - 이원우 : Chpater05 #34
 - 이윤경 : Chapter04 #33
 - 황상윤 : Chapter04 #33

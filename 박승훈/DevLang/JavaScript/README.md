@@ -2,7 +2,7 @@
 
 ## boostcourse 생활코딩: 자바스크립트의 시작
 
-활동 시작 소감
+### 활동 시작 소감
 
 - [생활코딩: 자바스크립트의 시작](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_1/)
 
@@ -60,4 +60,22 @@
 
 내용 정리
 
-- [5. jQuery, UI와 API, JS 검색 카워드](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_9/)
+- [5. jQuery, UI와 API, JS 검색 키워드](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_9/)
+
+<br>
+
+### Chapter 06 : JavaScript 객체 기본
+
+완료 일자 : 2022.02.13.
+
+내용 정리
+
+- [6.1. 객체 기본과 반복 출력](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_10/)
+
+- [6.2. 내장 객체](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_11/)
+
+- [6.3. 생성자(constructor)](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_12/)
+
+- [6.4. Prototype](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_13/)
+
+- [6.5. Class](https://orchemi.github.io/js%20boostcourse/js_boostcourse_lifecoding_14/)

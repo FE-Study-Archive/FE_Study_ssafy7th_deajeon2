@@ -10,7 +10,7 @@
 - 박재경 : Chapter02 #23
 - 박재현 : Chapter06 #10
 - 이원우 : Chpater06 #01
-- 이윤경 : Chapter05 #37
+- 이윤경 : Chapter06 #3-2
 - 황상윤 : Chapter05 #37
 ```
 

@@ -1,13 +1,6 @@
-객체 : 서로 연관된 변수와 함수를 그룹핑하고 이름을 붙인 것
-
-
-
-```javascript
-// 배열
 var memberArray = ['egoing', 'graphittie', 'leezhce']
 console.log("memberArray[2]", memberArray[2]);
 
-// 객체
 var memberObject = {
   manager: 'egoing',
   developer: 'graphittie',
@@ -25,23 +18,3 @@ console.log("memberObject['designer']", memberObject['designer']);
 // 객체를 삭제하는 법
 delete memberObject.manager
 console.log('after delete memberObject.manager', memberObject.manager);
-```
-
-
-
-```javascript
-console.group('loop');
-...
-...
-...
-console.groupEnd('loop');
-// 사이에 있는 콘솔로그를 보기 좋게 출력해준다
-```
-
-
-
-객체의 값을 불러올 때, 변수에 객체의 속성의 이름을 넣어서
-
-`객체.변수` 의 형태로는  불러올 수 없다.
-
-`.`뒤에는 변수가 올 수 없음.. 객체의 속성의 이름이 와야한다..!

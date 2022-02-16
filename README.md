@@ -9,7 +9,7 @@
 - 박승훈 : Chapter06 #10
 - 박재경 : Chapter02 #23
 - 박재현 : Chapter06 #10
-- 이원우 : Chpater06 #01
+- 이원우 : Chpater06 #6_3
 - 이윤경 : Chapter06 #3-2
 - 황상윤 : Chapter06 #4-1
 ```

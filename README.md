@@ -11,7 +11,7 @@
 - 박재현 : Chapter06 #10
 - 이원우 : Chpater06 #10
 - 이윤경 : Chapter06 #10
-- 황상윤 : Chapter06 #4-1
+- 황상윤 : Chapter06 #10
 ```
 
 <br>

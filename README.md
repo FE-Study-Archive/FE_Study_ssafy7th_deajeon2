@@ -10,7 +10,7 @@
 - 김지영 : Chapter06 #10
 - 박승훈 : Chapter06 #10
 - 박재경 : Chapter06 #10
-- 박재현 : Chapter06 #10
+- 박재현 : Chapter07 #17
 - 이원우 : Chpater06 #10
 - 이윤경 : Chapter06 #10
 - 황상윤 : Chapter06 #10

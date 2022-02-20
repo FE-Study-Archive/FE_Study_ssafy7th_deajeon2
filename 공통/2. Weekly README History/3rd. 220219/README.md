@@ -3,14 +3,12 @@
 ## 0. 현재 달성률
 
 ```
-💪 금주 달성 목표 : Chapter07 #17
-
-<< 개인별 현재 달성률 >>
+💪 이번 주 목표 달성률 : Chapter06 #10
 
 - 김지영 : Chapter06 #10
 - 박승훈 : Chapter06 #10
 - 박재경 : Chapter06 #10
-- 박재현 : Chapter07 #17
+- 박재현 : Chapter06 #10
 - 이원우 : Chpater06 #10
 - 이윤경 : Chapter06 #10
 - 황상윤 : Chapter06 #10
@@ -41,9 +39,9 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 - 목표 : [boostcourse 생활코딩: 자바스크립트의 시작](https://www.boostcourse.org/cs124/joinLectures/52258) 총 7개 챕터, 68개 강의 이수
 
 - 결과
-  - 2주차 - 28개 강의 수강 : 전원 성공
-  - 3주차 - 24개 강의 수강 : 전원 성공
-  - 4주차 - 16개 강의 수강 : 진행중
+  - 1주차 - 28개 강의 수강 : 전원 성공
+  - 2주차 - 24개 강의 수강 : 전원 성공
+  - 3주차 : 진행 예정
 
 <br>
 
@@ -74,14 +72,12 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 
 ### 2022.02.
 
-[2022.02.18.] 스터디 3번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220218%5Dmeeting_3.md))
-
 [2022.02.14.] 김지영님 스터디 합류
 
-[2022.02.11.] 스터디 2번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220218%5Dmeeting_2.md))
+[2022.02.11.] 스터디 2번째 회의
 
 [2022.02.04.] Github Repository Create 및 Fork
 
-[2022.02.04.] 스터디 첫 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220218%5Dmeeting_1.md))
+[2022.02.04.] 스터디 첫 회의
 
 [2022.02.04.] 스터디 구성 완료

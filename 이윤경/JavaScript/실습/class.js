@@ -13,10 +13,6 @@ class Person{
   }
 }
 
-// Person.prototype.sum = function(){
-//   return 'prototype : ' + (this.first+this.second);
-// }
-
 var jang = new Person('kim', 10, 20);
 jang.sum = function(){
   return 'this : ' + (this.first+this.second)

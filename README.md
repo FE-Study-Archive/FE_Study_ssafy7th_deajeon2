@@ -12,7 +12,7 @@
 - 박재경 : Chapter07 #17
 - 박재현 : Chapter07 #17
 - 이원우 : Chpater07 #17
-- 이윤경 : Chapter07 #14_3
+- 이윤경 : Chapter07 #17
 - 황상윤 : Chapter07 #17
 ```
 

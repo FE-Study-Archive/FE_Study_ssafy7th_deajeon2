@@ -11,5 +11,6 @@
 | 2022/02/11 | `Chapter3`                 |
 | 2022/02/12 | `chapter4`<br />`chapter5` |
 | 2022/02/16 | `chapter6`                 |
+| 2022/02/23 | `chapter7`                 |
 
 <br>

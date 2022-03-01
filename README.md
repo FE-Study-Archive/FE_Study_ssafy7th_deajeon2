@@ -9,7 +9,7 @@
 
 - 김지영 : Chapter02 #3
 - 박승훈 : Chapter02 #3
-- 박재경 :
+- 박재경 : Chapter03 #8
 - 박재현 : Chapter03 #8
 - 이원우 : Chapter02 #8
 - 이윤경 :

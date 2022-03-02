@@ -1,23 +1,22 @@
-const title = document.querySelector(".hello h1");
+const h1 = document.querySelector(".hello h1");
+
+// function handleTitleClick(){
+//   console.log(h1.style.color);
+//   h1.style.color = "blue";
+//   console.log(h1.style.color);
+// }
+
+// function handleTitleClick(){
+//   const clickedClass = "clicked";
+//   if(h1.classList.contains(clickedClass)){
+//     h1.classList.remove(clickedClass);
+//   } else {
+//     h1.classList.add(clickedClass);
+//   }
+// } 
 
 function handleTitleClick(){
-  if (title.style.color=="brown") {
-    title.style.color = "blue";
-  } else if (title.style.color=="blue") {
-    title.style.color = "red";
-  } else {
-    title.style.color = "brown";
-  }
+  h1.classList.toggle("clicked");
 }
 
-function handlerTitleMouseOver(){
-  title.style.opacity = 0.5;
-}
-
-function handlerTitleMouseOut(){
-  title.style.opacity = 1;
-}
-
-title.addEventListener("click", handleTitleClick);
-title.addEventListener("mouseover", handlerTitleMouseOver);
-title.addEventListener("mouseout", handlerTitleMouseOut);
+h1.addEventListener("click", handleTitleClick);

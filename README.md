@@ -11,7 +11,7 @@
 - 박승훈 : Chapter07 #1
 - 박재경 : Chapter03 #8
 - 박재현 : Chapter03 #8
-- 이원우 : Chapter03 #8
+- 이원우 : Chapter06 #2
 - 이윤경 : Chapter03 #0
 - 황상윤 : Chapter03 #8
 ```

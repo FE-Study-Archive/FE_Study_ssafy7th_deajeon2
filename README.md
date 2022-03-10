@@ -8,7 +8,7 @@
 << 개인별 현재 달성률 >>
 
 - 김지영 : Chapter04 #7
-- 박승훈 : Chapter07 #1
+- 박승훈 : Chapter08 #0
 - 박재경 : Chapter08 #2
 - 박재현 : Chapter03 #8
 - 이원우 : Chapter08 #2

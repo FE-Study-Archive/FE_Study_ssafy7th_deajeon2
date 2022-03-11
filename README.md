@@ -13,7 +13,7 @@
 - 박재현 : Chapter03 #8
 - 이원우 : Chapter08 #2
 - 이윤경 : Chapter03 #0
-- 황상윤 : Chapter03 #8
+- 황상윤 : Chapter08 #2
 ```
 
 <br>

@@ -3,17 +3,17 @@
 ## 0. 현재 달성률
 
 ```
-💪 금주 달성 목표 : Chapter08 #2
+💪 금주 달성 목표 : JS 활용해 사이트 만들기
 
 << 개인별 현재 달성률 >>
 
-- 김지영 : Chapter08 #2
-- 박승훈 : Chapter08 #2
-- 박재경 : Chapter08 #2
-- 박재현 : Chapter07 #4
-- 이원우 : Chapter08 #2
-- 이윤경 : Chapter07 #2
-- 황상윤 : Chapter08 #2
+- 김지영 : 
+- 박승훈 : 
+- 박재경 : 
+- 박재현 : 
+- 이원우 : 
+- 이윤경 : 
+- 황상윤 : 
 ```
 
 <br>
@@ -45,6 +45,8 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 #### 3월
 
 - 1/2주차 : [노마드 코더 : 바닐라 JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners/lobby) 총 8개 챕터, 61개 강의 이수
+
+- 3/주차 : JS 실습 :JS로 원하는 사이트 만들기 
 
 <br>
 

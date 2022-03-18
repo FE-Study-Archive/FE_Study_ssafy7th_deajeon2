@@ -1,0 +1,110 @@
+/* font size */
+.title-1 {
+  font-size: 3rem;
+}
+
+.title-2 {
+  font-size: 2.5rem;
+}
+
+.title-3 {
+  font-size: 2rem;
+}
+
+.title-4 {
+  font-size: 1.5rem;
+}
+
+.title-5 {
+  font-size: 1rem;
+}
+
+
+
+
+/* text-color */
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-bwhite {
+  color: rgb(234, 234, 234);
+}
+
+.text-deepdark {
+  color: rgb(20, 20, 20);
+}
+
+.text-dark {
+  color: rgb(50, 50, 50);
+}
+
+.text-bblue {
+  color: rgb(79, 150, 243);
+}
+
+.text-bred {
+  color: rgb(245, 98, 98);
+}
+
+.text-byellow {
+  color: rgb(222, 224, 55);
+}
+
+
+
+
+/* bg-color */
+.bg-black {
+  background-color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-bwhite {
+  background-color: rgb(234, 234, 234);
+}
+
+.bg-deepdark {
+  background-color: rgb(20, 20, 20);
+}
+
+.bg-dark {
+  background-color: rgb(50, 50, 50);
+}
+
+.bg-bblue {
+  background-color: rgb(79, 150, 243);
+}
+
+.bg-bred {
+  background-color: rgb(245, 98, 98);
+}
+
+.bg-byellow {
+  background-color: rgb(222, 224, 55);
+}
+
+
+
+/* layout */
+.place-center  {
+  margin: auto auto;
+}
+
+
+.container {
+  
+  width: 1300px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  background-color: lightyellow;
+}

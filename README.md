@@ -3,17 +3,17 @@
 ## 0. 현재 달성률
 
 ```
-💪 금주 달성 목표 : Chapter08 #2
+💪 금주 달성 목표 : JS 활용해 사이트 만들기
 
 << 개인별 현재 달성률 >>
 
-- 김지영 : Chapter08 #2
-- 박승훈 : Chapter08 #2
-- 박재경 : Chapter08 #2
-- 박재현 : Chapter07 #4
-- 이원우 : Chapter08 #2
-- 이윤경 : Chapter07 #2
-- 황상윤 : Chapter08 #2
+- 김지영 : 
+- 박승훈 : 
+- 박재경 : 
+- 박재현 : 
+- 이원우 : 음악 랜덤 추천 및 감상 페이지 완성
+- 이윤경 : 
+- 황상윤 : 
 ```
 
 <br>
@@ -46,6 +46,8 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 
 - 1/2주차 : [노마드 코더 : 바닐라 JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners/lobby) 총 8개 챕터, 61개 강의 이수
 
+- 3/주차 : JS 실습 :JS로 원하는 사이트 만들기 
+
 <br>
 
 ---
@@ -53,6 +55,7 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 ## 3. HISTORY Record
 
 ### 2022.03.
+[2022.03.11.] 스터디 6번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220311%5Dmeeting_6.md))
 
 [2022.03.04.] 스터디 5번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220304%5Dmeeting_5.md))
 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 자바스크립트로 작성할때   -->
+</head>
+  <body>
+    <h3 id="root"></h3>
+  </body>
+  <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel">
+    const root = document.querySelector("#root");
+    const Title = ( 
+    <h3 id="title" onMouseEnter = {() => console.log("mouse enter")}>
+      Hello I am a title
+    </h3>);
+    const Button = (
+    <button style={{backgroundColor: "tomato",}} onClick={() => console.log("im clicked")}>
+      Click me
+    </button> // html과 매우 유사하고 함수까지 모두 담아낼 수 있다.
+    );
+    const container = React.createElement("div", null, [Title, Button]); //한꺼번에 렌더링 가능.
+    ReactDOM.render(container, root);
+  </script>
+</html>

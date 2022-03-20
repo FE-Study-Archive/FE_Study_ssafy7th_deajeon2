@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 자바스크립트로 작성할때   -->
+</head>
+  <body>
+    <h3 id="root"></h3>
+  </body>
+  <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+  <script>
+    const root = document.querySelector("#root");
+    const h3 = React.createElement("h3", {
+      onmouseenter: () => console.log("mouse enter"),
+    }, "Hello I am a span");
+
+    const btn = React.createElement("button", {
+      onclick: () => console.log("im clicked"),
+    }, "Click me");
+
+    const container = React.createElement("div", null, [h3, btn]); //한꺼번에 렌더링 가능.
+    ReactDOM.render(container, root);
+  </script>
+</html>

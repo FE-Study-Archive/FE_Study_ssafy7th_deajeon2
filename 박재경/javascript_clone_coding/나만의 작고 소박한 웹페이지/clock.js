@@ -357,7 +357,7 @@ function hideShow(){
 function loading(){
   choiceFood.classList.toggle(HIDDEN);
   myQuoto.classList.toggle(HIDDEN);
-  hmm.src = "/image/hmm.gif";
+  hmm.src = "image/hmm.gif";
   randomQuoto()
   setTimeout(hideShow,4000);
 }
@@ -439,7 +439,7 @@ function goToHome(){
   home.classList.toggle(HIDDEN);
   hmm.classList.toggle(HIDDEN);
   choiceFood.classList.toggle(HIDDEN);
-  hmm.src = "/image/cute.png";
+  hmm.src = "image/cute.png";
 }
 
 time()

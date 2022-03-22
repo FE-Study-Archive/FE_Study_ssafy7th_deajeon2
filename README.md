@@ -3,17 +3,17 @@
 ## 0. 현재 달성률
 
 ```
-💪 금주 달성 목표 : ReactJS 이용해 영화 웹 서비스 만들기 Chapter #3.4
+💪 금주 달성 목표 : JS 활용해 사이트 만들기
 
 << 개인별 현재 달성률 >>
 
-- 김지영 : Chapter #3.4
-- 박승훈 : Chapter #2.2
-- 박재경 :
-- 박재현 :
-- 이원우 : Chapter #3.4
-- 이윤경 :
-- 황상윤 :
+- 김지영 : 로그인하면 시계, 날씨, todo-list, 랜덤 노래추천을 볼 수 있는 웹사이트
+- 박승훈 : 숫자야구 게임 사이트
+- 박재경 : 오늘 뭐먹지?🤔 현재 시간에 따라 음식 메뉴를 추천하는 사이트
+- 박재현 : 하시딤 레이드 플래너 페이지 업로드 (기능 불완전)
+- 이원우 : 음악 랜덤 추천 및 감상 페이지 완성
+- 이윤경 : 투두리스트와 함께하는 간소한 다이어리
+- 황상윤 : 투두리스트와 날씨, 시계를 볼 수 있는 웹사이트
 ```
 
 <br>
@@ -45,9 +45,7 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 #### 3월
 
 - 1/2주차 : [노마드 코더 : 바닐라 JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners/lobby) 총 8개 챕터, 61개 강의 이수
-
-- 3주차 : JS 실습 - JS로 원하는 사이트 만들기
-- 4주차 : [노마드 코더 : ReactJS로 영화 웹 서비스 만들기](https://nomadcoders.co/react-for-beginners) 03강 04차시까지 이수
+- 3/주차 : JS 실습 :JS로 원하는 사이트 만들기 
 
 <br>
 
@@ -56,15 +54,6 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 ## 3. HISTORY Record
 
 ### 2022.03.
-
-[2022.03.18.] 스터디 7번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220318%5Dmeeting_7.md))
-
-[2022.03.18.] 첫 번째 토이 프로젝트 제작 완료
-
-[2022.03.18.] SSAFY 3 月 우수 스터디 계획서 팀 선정
-
-[2022.03.18.] SSAFY 2 月 우수 결과 보고서 팀 선정
-
 [2022.03.11.] 스터디 6번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220311%5Dmeeting_6.md))
 
 [2022.03.04.] 스터디 5번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220304%5Dmeeting_5.md))

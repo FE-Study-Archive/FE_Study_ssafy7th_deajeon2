@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 자바스크립트로 작성할때   -->
+</head>
+  <body>
+    <h3 id="root"></h3>
+  </body>
+  <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    const root = document.querySelector("#root");
+    let counter = 0;
+    function countUp() {
+      counter = counter + 1;
+      render();
+    }
+    function render() {
+      ReactDOM.render(<Container/>, root);
+    }
+    const Container = () => (
+    <div>
+      <h3>Total clicks: {counter}</h3>
+      <button onClick={countUp}>Click me</button>
+    </div>
+    );
+    render();
+    // 재귀처럼 countUp을 해주면 그 안에서 또 다시 render해서 counter에 값을 반영시킴.
+  </script>
+</html>

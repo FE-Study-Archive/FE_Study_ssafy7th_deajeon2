@@ -621,7 +621,7 @@ function handleToDoSubmit(event){
   const newRaidObj = {
     date: newRaidTime,
     id: Date.now(),
-    name16: "",
+    name16: "해릭",
   }
   raids.push(newRaidObj);
   paintRaid(newRaidObj);

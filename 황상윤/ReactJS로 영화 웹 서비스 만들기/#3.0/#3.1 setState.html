@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- react를 집어넣을 id="root"인 div 생성 -->
+    <div id="root"></div>
+  </body>
+  <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel">
+    // root의 아이디를 얻어옴
+    const root = document.getElementById("root");
+    function App() {
+      // .useState() : 첫번째 인자로 값을 가지고 두번째 인자로 함수를 가진다
+      //  두번째 인자로 받는 함수를 실행하면 페이지를 다시 랜더링해준다
+      //  const [state, modifier] = React.useState(0);
+      //  modifier 함수로 state를 바꿀때 App()함수가 다시 실행되면서 페이지가 리 랜더링 된다
+      //  그때 리엑트는 바뀐 부분만 랜더해줌
+      const [counter, setCounter] = React.useState(0);
+      const onClick = () => {
+        // 이벤트가 일어났을때 state를 modifier함수 괄호 안의 값으로 바꿔준다
+        // setCounter(counter + 1); 
+
+        // current를 이용하여 현재의 state를 기반으로 계산한다
+        setCounter((current) => current + 1);
+      };
+      return (
+        <div>
+          <h3>Total click: {counter}</h3>
+          <button onClick={onClick}>Click me</button>
+        </div>
+      );
+    }
+    ReactDOM.render(<App />, root);
+  </script>
+</html>

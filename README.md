@@ -9,7 +9,7 @@
 
 - 김지영 : Chapter #3.4
 - 박승훈 : Chapter #3.4
-- 박재경 :
+- 박재경 : Chapter #3.4
 - 박재현 : Chapter #3.4
 - 이원우 : Chapter #3.4
 - 이윤경 : Chapter #2.3

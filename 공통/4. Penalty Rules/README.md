@@ -22,7 +22,8 @@
 
 <br>
 
-> Commit Message Convention 안 지킬 시
+> Commit Message Convention 위반
 
 - 회당 2천원
 - `#`를 삽입하는 경우 해당 Repo의 커밋 번호로 인식해서 꼬이기 때문에 이는 사용하지 않는 것으로 정함
+- Merge하는 경우 생기는 `#??`의 경우 Merge와 함께 자동으로 생성되는 커밋 메시지이므로 위반으로 간주하지 않음.

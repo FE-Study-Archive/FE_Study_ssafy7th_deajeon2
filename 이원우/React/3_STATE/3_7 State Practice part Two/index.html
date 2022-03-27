@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 자바스크립트로 작성할때   -->
+</head>
+  <body>
+    <h3 id="root"></h3>
+  </body>
+  <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    const root = document.querySelector("#root");
+    function App() {
+      const [amount, setAmount] = React.useState(0); //()안은 default value , const의 첫 인자 = 함수로 바꿔줄 변수, 두 번째 인자 = 동작할 함수.
+      const [flipped, setFlipped] = React.useState(false);
+      const onChange = (event) => {
+        setAmount(event.target.value);
+      };
+      const reset = () => setMinutes(0);
+      const onFlip = () => {
+        reset();
+        setFlipped((current) => !current);
+      }
+      return (
+    <div>
+      <h1>Super Converter</h1>
+      <div>
+        <label HTMLfor="minutes">Minutes</label>
+        <input
+          value={flipped ? amount*60 : amount}
+          placeholder="Minutes"
+          type="number"
+          id="minutes"
+          onChange={onChange}
+          disabled = {flipped === true}
+          />
+      </div>
+      
+      <div>
+        <label HTMLfor="hours">Hours</label>
+        <input 
+          value={flipped ? amount : Math.round(amount/60)}
+          placeholder="Hours" 
+          id="hours"
+          type="number"
+          disabled = {flipped === false}
+          onChange={onChange}
+          />
+      </div>
+      <button onClick={reset}>reset</button>
+      <button onClick={onFlip}>Flipped</button>
+    </div> 
+    );
+  }
+    ReactDOM.render(<App/>, root);
+  </script>
+</html>

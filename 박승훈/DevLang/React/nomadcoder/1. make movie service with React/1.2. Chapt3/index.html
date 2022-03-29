@@ -1,32 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div id="root"></div>
-</body>
-<script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/@babel/standalone@7.17.8/babel.min.js"></script>
-<script type="text/babel">
-  const root = document.getElementById("root");   
-  function App() {
-    const [counter, setCounter] = React.useState(0);
-    const onClick = () => {
-      // setCounter(counter + 1); 
-      setCounter((current) => current + 1);
-    };
-    return (
-      <div>
-        <h3>Total Clicks: {counter}</h3>
-        <button onClick={onClick}>Click me</button>
-      </div>
-    );
-  };
-  ReactDOM.render(<App />, root);
-</script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div id="root"></div>
+	</body>
+	<script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+	<script src="https://unpkg.com/@babel/standalone@7.17.8/babel.min.js"></script>
+	<script type="text/babel">
+		function MinutesToHours() {
+			const [amount, setAmount] = React.useState();
+			const [flipped, setFlipped] = React.useState(false);
+			const onChange = (event) => {
+				setAmount(event.target.value);
+			};
+			// minutes의 값을 0으로 초기화
+			const reset = () => setAmount(0);
+
+			const onFlip = () => {
+				// flip 시 값을 초기화하기 위해 reset() 함수 호출
+				reset();
+				// 현재 flipped state의 상태와 반대인 bool을 state에 지정
+				//const onFlip = () => setFlipped(!flipped);
+				// flipped state의 정말 현재 상태를 가져오기 위해 arrow 함수 사용
+				setFlipped((current) => !current);
+			};
+
+			return (
+				<div>
+					<div>
+						<label htmlFor="minutes">Minutes</label>
+						<input
+							value={flipped ? amount * 60 : amount}
+							id="minutes"
+							placeholder="Miniutes"
+							type="number"
+							onChange={onChange}
+							disabled={flipped}
+						/>
+					</div>
+
+					<div>
+						<label htmlFor="hours">Hours</label>
+						<input
+							value={flipped ? amount : Math.round(amount / 60)}
+							id="hours"
+							placeholder="Hours"
+							type="number"
+							onChange={onChange}
+							disabled={!flipped}
+						/>
+					</div>
+					<button onClick={reset}>Reset</button>
+					<button onClick={onFlip}>{flipped ? "Filp Back" : "Flip"}</button>
+				</div>
+			);
+		}
+		function KmToMiles() {
+			return <h3>KM 2 Miles</h3>;
+		}
+
+		function App() {
+			const [index, setIndex] = React.useState("0");
+			const onSelect = (event) => {
+				setIndex(event.target.value);
+			};
+			return (
+				<div>
+					<h1>Super Converter</h1>
+					<select value={index} onChange={onSelect}>
+						<option value="0">Minutes & Hours</option>
+						<option value="1">Km & Miles</option>
+					</select>
+					<hr />
+					{index === "0" ? <MinutesToHours /> : null}
+					{index === "1" ? <KmToMiles /> : null}
+				</div>
+			);
+		}
+
+		const root = document.getElementById("root");
+		ReactDOM.render(<App />, root);
+	</script>
 </html>

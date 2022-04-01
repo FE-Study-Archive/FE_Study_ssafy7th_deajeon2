@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- react를 집어넣을 id="root"인 div 생성 -->
+    <div id="root"></div>
+  </body>
+  <!-- 배포모드는 production -->
+  <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+  <!-- 개발자 모드는 development -->
+  <!-- <script src="https://unpkg.com/react@17.0.2/umd/react.development.min.js"></script> -->
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- 이 주소를 추가함으로써 prop의 타입을 체크한다 지정한 타입과 다르면 경고 출력 -->
+  <script src="https://unpkg.com/prop-types@15.7.2/prop-types.js"></script>
+  <script type="text/babel">
+    // Btn({banana, changeValue, fontSize = 16}) 지정되지 않은 값의 디폴트 값을 줄 수 있다.
+    function Btn({banana, changeValue, fontSize = 16}) {
+      return (
+        <button
+          onClick={changeValue}
+          style={{
+            backgroundColor: "tomato",
+            color: "white",
+            padding: "10px 20px",
+            border: 0,
+            borderRadius: 10,
+            fontSize
+          }}
+      >
+          {banana}
+      </button>
+      );
+    }
+    // React.memo(Btn)를 통해 중복 랜더링을 막아준다
+    const MemorizedBtn = React.memo(Btn)
+    // prop의 타입을 지정
+    // 해당 타입과 다르다면 콘솔에 경고 출력
+    //  .isRequired 해당타입이 반드시 존재해야 한다면 추가로 작성
+    Btn.propType = {
+      banana: PropTypes.string,
+      fontSize: PropTypes.number.isRequired,
+    }
+    function App() {
+      const [value, setValue] = React.useState("Save Changes");
+      const changeValue = () => setValue("Revert Changes");
+      return (
+        // Btn({banana:"save changes"})
+        <div>  
+          <MemorizedBtn banana={value} changeValue={changeValue} />
+          <MemorizedBtn banana="Continue" />
+          <MemorizedBtn fontSize={18} banana={"Continue"} />
+        </div>
+      );
+    }
+    const root = document.getElementById("root");
+    ReactDOM.render(<App />, root);
+  </script>
+</html>

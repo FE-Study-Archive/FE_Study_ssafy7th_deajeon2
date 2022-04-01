@@ -12,7 +12,7 @@
 - 박재경 : Chapter #6.0
 - 박재현 : Chapter #6.0
 - 이원우 : Chapter #6.0
-- 이윤경 : Chapter #3.4
+- 이윤경 : Chapter #6.0
 - 황상윤 : Chapter #6.0
 ```
 

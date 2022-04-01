@@ -3,7 +3,7 @@
 ## 0. 현재 달성률
 
 ```
-💪 금주 달성 목표 : ReactJS 이용해 영화 웹 서비스 만들기 Chapter #6.0
+💪 금주 달성 목표 : ReactJS 이용해 영화 웹 서비스 만들기 Chapter #7.5
 
 << 개인별 현재 달성률 >>
 
@@ -22,7 +22,7 @@
 
 ## 1. 스터디 멤버
 
-`박승훈` `박재경` `박재현` `이원우` `이윤경` `황상윤` `김지영`
+`김지영` `박승훈` `박재경` `박재현` `이원우` `이윤경` `황상윤`
 
 <br>
 
@@ -47,6 +47,7 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 - 1/2주차 : [노마드 코더 : 바닐라 JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners/lobby) 총 8개 챕터, 61개 강의 이수
 
 - 3주차 : JS 실습 - JS로 원하는 사이트 만들기
+
 - 4주차 : [노마드 코더 : ReactJS로 영화 웹 서비스 만들기](https://nomadcoders.co/react-for-beginners) 03강 04차시까지 이수
 
 <br>
@@ -55,7 +56,15 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 
 ## 3. HISTORY Record
 
+### 2022.04.
+
+[2022.04.01.] 스터디 9번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220401%5Dmeeting_9.md))
+
+<br>
+
 ### 2022.03.
+
+[2022.03.25.] 스터디 8번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220325%5Dmeeting_8.md))
 
 [2022.03.18.] 스터디 7번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220318%5Dmeeting_7.md))
 

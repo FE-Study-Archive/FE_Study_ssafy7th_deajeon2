@@ -3,7 +3,7 @@
 ## 0. 현재 달성률
 
 ```
-💪 금주 달성 목표 : ReactJS 이용해 영화 웹 서비스 만들기 Chapter #7.5
+💪 금주 달성 목표 : ReactJS 이용해 영화 웹 서비스 만들기 Chapter #11.0
 
 << 개인별 현재 달성률 >>
 
@@ -52,11 +52,19 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 
 <br>
 
+#### 4월
+
+- 1~3주차 : [노마드 코더 : ReactJS로 영화 웹 서비스 만들기](https://nomadcoders.co/react-for-beginners) 강의 이수
+
+- 4주차 : ReactJS를 활용한 개인 프로젝트 중간 보고 및 피드백
+
 ---
 
 ## 3. HISTORY Record
 
 ### 2022.04.
+
+[2022.04.08.] 스터디 10번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220408%5Dmeeting_10.md))
 
 [2022.04.01.] 스터디 9번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220401%5Dmeeting_9.md))
 

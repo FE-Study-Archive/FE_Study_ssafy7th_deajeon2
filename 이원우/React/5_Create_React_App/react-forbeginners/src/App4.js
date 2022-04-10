@@ -1,4 +1,4 @@
-
+import styles from "./App4.module.css";
 import {
   BrowserRouter,
   Switch,
@@ -9,7 +9,7 @@ import Detail from "./routes/Detail"; //다른 js폴더들에서 URL주소에 �
 function App4() {
   return (<BrowserRouter>
     <Switch>
-      <Route path="/movie">
+      <Route path="/movie/:id">
         <Detail />
       </Route>
       <Route path='/'>

@@ -3,12 +3,12 @@
 ## 0. 현재 달성률
 
 ```
-💪 금주 달성 목표 : ReactJS 이용해 영화 웹 서비스 만들기 Chapter #11.0
+💪 금주 달성 목표 : ReactJS 이용해 영화 웹 서비스 만들기 Chapter #7.10
 
 << 개인별 현재 달성률 >>
 
 - 김지영 : Chapter #7.5
-- 박승훈 : Chapter #7.5
+- 박승훈 : Chapter #7.10
 - 박재경 : Chapter #7.5
 - 박재현 : Chapter #6.0
 - 이원우 : Chapter #7.5
@@ -54,9 +54,11 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 
 #### 4월
 
-- 1~3주차 : [노마드 코더 : ReactJS로 영화 웹 서비스 만들기](https://nomadcoders.co/react-for-beginners) 강의 이수
+- 1~2주차 : [노마드 코더 : ReactJS로 영화 웹 서비스 만들기](https://nomadcoders.co/react-for-beginners) 강의 이수
 
-- 4주차 : ReactJS를 활용한 개인 프로젝트 중간 보고 및 피드백
+- 3주차 : ReactJS를 활용한 개인 프로젝트 중간 보고 및 피드백
+
+- 4주차 : ReactJS 활용 개인 프로젝트 최종 결과 발표
 
 ---
 

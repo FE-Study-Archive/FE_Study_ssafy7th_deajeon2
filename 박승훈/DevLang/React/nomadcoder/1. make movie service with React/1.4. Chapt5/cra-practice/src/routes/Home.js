@@ -25,6 +25,7 @@ function Home() {
 						<Movie
 							// props를 이용해 component 내로 데이터 전달
 							key={movie.id}
+							id={movie.id}
 							title={movie.title}
 							// coverImg로 component명 지정
 							coverImg={movie.medium_cover_image}

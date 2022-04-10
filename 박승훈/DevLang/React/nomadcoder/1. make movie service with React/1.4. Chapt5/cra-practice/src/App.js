@@ -7,7 +7,7 @@ function App() {
 			{/* Switch : Route(URL)를 찾는 역할 */}
 			<Switch>
 				{/* Detail Route 컴포넌트 URL 의미 */}
-				<Route path="/movie">
+				<Route path="/movie/:id">
 					<Detail />
 				</Route>
 

@@ -2,11 +2,11 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 // props를 이용해 부모 컴포넌트(App.js)로 부터 movie 정보를 받아옴
-function Movie({ title, coverImg, summary, genres }) {
+function Movie({ id, title, coverImg, summary, genres }) {
 	return (
 		<div>
 			<h2>
-				<Link to="/movie">{title}</Link>
+				<Link to={`/movie/${id}`}>{title}</Link>
 			</h2>
 			<img src={coverImg} alt={title} />
 			<p>{summary}</p>
@@ -23,6 +23,7 @@ function Movie({ title, coverImg, summary, genres }) {
 }
 
 Movie.propTypes = {
+	id: PropTypes.number.isRequired,
 	coverImg: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,
 	summary: PropTypes.string.isRequired,

@@ -8,4 +8,5 @@
 | ---------- | --------------------------------------- |
 | 2022/03/25 | `Chpter1` `Chapter2` `Chapter_3`        |
 | 2022/03/31 | `Chapter_3` `Chapter_4` `Chapter_5`<br> |
-| 2022/04/07 | `chapter6` `chapter7`                   |
+| 2022/04/07 | `chapter6` `chapter7.5`                 |
+| 2022/04/15 | `chapter 7.10`                          |

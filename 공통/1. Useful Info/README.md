@@ -94,6 +94,12 @@ CSS Animation 관련 사이트
 
 <br>
 
+### [CSS 자가진단](https://velog.io/@teo/css-self-checklist)
+
+내가 CSS를 얼마나 잘 알고 있는지 확인하기
+
+<br>
+
 ---
 
 ## JavaScript

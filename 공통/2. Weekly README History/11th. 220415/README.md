@@ -3,17 +3,17 @@
 ## 0. 현재 달성률
 
 ```
-💪 달성 목표 : React로 원하는 사이트 만들기
+💪 금주 달성 목표 : ReactJS 이용해 영화 웹 서비스 만들기 Chapter #7.10
 
 << 개인별 현재 달성률 >>
 
-- 김지영 : 라우터 페이지 전환 및 API 받아오기 / 기초 틀 제작 완료
-- 박승훈 : 라우터 페이지 전환 및 반응형 레이아웃 제작 완료
-- 박재경 :	데이터 생성, 저장, 삭제 완료 / 반응형 레이아웃 제작 완료
-- 박재현 :
-- 이원우 : 리엑트 와이어프레임 / README 기획 초안 완료
-- 이윤경 :
-- 황상윤 :
+- 김지영 : Chapter #7.10
+- 박승훈 : Chapter #7.10
+- 박재경 : Chapter #7.10
+- 박재현 : Chapter #7.10
+- 이원우 : Chapter #7.10
+- 이윤경 : Chapter #7.10
+- 황상윤 : Chapter #7.10
 ```
 
 <br>
@@ -56,15 +56,11 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 
 - 1~2주차 : [노마드 코더 : ReactJS로 영화 웹 서비스 만들기](https://nomadcoders.co/react-for-beginners) 강의 이수, 완강
 
-- 3주차 : React 실습 - React로 원하는 사이트 만들기1 : 컨셉 설계 및 와이어프레임 제작
-
 ---
 
 ## 3. HISTORY Record
 
 ### 2022.04.
-
-[2022.04.15.] 스터디 11번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220415%5Dmeeting_11.md))
 
 [2022.04.08.] 스터디 10번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220408%5Dmeeting_10.md))
 

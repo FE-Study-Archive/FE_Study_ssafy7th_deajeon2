@@ -66,10 +66,6 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 
 ### 2022.04.
 
-[2022.04.29.] React 프로젝트 2주차 발표 및 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220429%5Dmeeting_12.md)))
-
-[2022.04.22.] React 프로젝트 1주차 발표 / 회의 내용 없음
-
 [2022.04.15.] 스터디 11번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220415%5Dmeeting_11.md))
 
 [2022.04.08.] 스터디 10번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220408%5Dmeeting_10.md))

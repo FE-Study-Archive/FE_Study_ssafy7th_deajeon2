@@ -36,8 +36,8 @@ function App() {
   function handleToDoSubmit(event){
     let planArr = [...raidPlanList];
     event.preventDefault();
-    console.log(event)
-    console.log(event.target[0].value)
+    // console.log(event)
+    // console.log(event.target[0].value)
     const newRaidTime = event.target[0].value;
     event.target[0].value = "";
     const newRaidObj = {

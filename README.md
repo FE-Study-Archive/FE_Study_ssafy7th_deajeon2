@@ -1,19 +1,35 @@
 # SSAFY 7기 대전 2반 프론트엔드 스터디
 
-## 0. 현재 달성률
+## 0. 개인별 달성 목표 및 현황
 
 ```
-💪 달성 목표 : React로 원하는 사이트 만들기
+[ 김지영 ]
+- 달성 목표 :
+- 달성 현황 :
 
-<< 개인별 현재 달성률 >>
+[ 박승훈 ]
+- 달성 목표 : React 프로젝트 기능 개선 및 확장
+- 달성 현황 : -
 
-- 김지영 : 라우터 페이지 전환 및 API로 데이터받아오기 / css 작성
-- 박승훈 : 라우터 페이지 전환 및 반응형 레이아웃 제작 완료
-- 박재경 : 데이터 생성, 저장, 삭제 완료 / 반응형 레이아웃 제작 완료
-- 박재현 : pjt 01 페이지 React 변환 과정 : 일정 추가 기능 완료
-- 이원우 : 블로그 포스팅 CRD 구현 및 이미지 업로드 구현 완료
-- 이윤경 : 대략적인 달력 출력
-- 황상윤 : 컴포넌트 분리/ 카드 우선순위 설정 / progress bar 제작
+[ 박재경 ]
+- 달성 목표 :
+- 달성 현황 :
+
+[ 박재현 ]
+- 달성 목표 :
+- 달성 현황 :
+
+[ 이원우 ]
+- 달성 목표 :
+- 달성 현황 :
+
+[ 이윤경 ]
+- 달성 목표 :
+- 달성 현황 :
+
+[ 황상윤 ]
+- 달성 목표 :
+- 달성 현황 :
 ```
 
 <br>
@@ -60,27 +76,41 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 
 - 4주차 : React 실습 - React로 원하는 사이트 만들기2 : 1차 사이트 설계 완료
 
+<br>
+
+#### 5월
+
+- 1주차 : React 실습 - React로 원하는 사이트 만들기3 : 사이트 설계 최종 완료
+
+- 이후 : 개별 학습 진행
+
 ---
 
 ## 3. HISTORY Record
 
+### 2022.05.
+
+[2022.05.07.] 스터디 13번째 회의 및 React 프로젝트 3주차 발표([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220507%5Dmeeting_13.md))
+
+<br>
+
 ### 2022.04.
 
-[2022.04.29.] React 프로젝트 2주차 발표 및 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220429%5Dmeeting_12.md)))
+[2022.04.29.] 스터디 12번째 회의 및 React 프로젝트 2주차 발표([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220429%5Dmeeting_12.md))
 
 [2022.04.22.] React 프로젝트 1주차 발표 / 회의 내용 없음
 
-[2022.04.15.] 스터디 11번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220415%5Dmeeting_11.md))
+[2022.04.15.] 스터디 11번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220415%5DMeeting_11.md))
 
-[2022.04.08.] 스터디 10번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220408%5Dmeeting_10.md))
+[2022.04.08.] 스터디 10번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220408%5DMeeting_10.md))
 
-[2022.04.01.] 스터디 9번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220401%5Dmeeting_9.md))
+[2022.04.01.] 스터디 9번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220401%5DMeeting_9.md))
 
 <br>
 
 ### 2022.03.
 
-[2022.03.25.] 스터디 8번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220325%5Dmeeting_8.md))
+[2022.03.25.] 스터디 8번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220325%5DMeeting_8.md))
 
 [2022.03.18.] 스터디 7번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220318%5Dmeeting_7.md))
 

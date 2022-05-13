@@ -7,8 +7,6 @@ const raidTime = document.getElementById("add")
 const raidInput = document.querySelector("#appt")
 const raidPlans = document.getElementById("plans")
 
-const RAID_KEY = "Raids"
-
 let raids = [
 
 ];
@@ -674,10 +672,3 @@ export default App;
 //   raidTime.addEventListener("submit", handleToDoSubmit);
 // });
 
-// const savedRaids = localStorage.getItem(RAID_KEY);
-
-// if(savedRaids !== null){
-//   const parsedRaids = JSON.parse(savedRaids);
-//   raids = parsedRaids;
-//   parsedRaids.forEach(paintRaid);
-// }

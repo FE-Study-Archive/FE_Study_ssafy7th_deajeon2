@@ -1,4 +1,11 @@
 import React from "react";
+import { useState, useEffect } from "react";
+
+const RAID_KEY = "Raids"
+
+let raids = []
+
+const savedRaids = localStorage.getItem(RAID_KEY);
 
 const Div2 = (props) => {
   console.log('Div2 props')
@@ -21,17 +28,33 @@ const Div2 = (props) => {
       return "남은 시각 : " + String(H) + '시간 ' + String(M) + '분'
     }
   }
+  const [plans, setPlans] = useState(props.newRaidTime)
   if (props.newRaidTime.length !== 0) {
-    const plans = props.newRaidTime
-    console.log(plans)
+    // const plans = props.newRaidTime
+    function deleteRaid(event) {
+      const div = event.target.parentElement.parentElement;
+      console.log('div.id : ' + div)
+      // div.remove();
+      raids = plans
+      raids = raids.filter((raid) => raid.id !== parseInt(div.id))
+      setPlans(raids)
+    }
+    console.log('setted : ' + plans)
     return (
-      <div>
+      <div id="">
         {plans && plans.map((plan, index) => (
-      <div className="divCenter textCenter" key={index}>
-        <span className="textCenter">하시딤 시작 시각 : {plan.date}</span>
-        <br/>
-        <span className="textCenter">{remainClock(plan.date)}</span>
-      </div>))}
+          <div>
+            <div className="divCenter textCenter" key={index}> 
+            {/* key를 date.now() 줄 것 index 값은 겹칠 확률이 높음 */}
+              <span className="textCenter">하시딤 시작 시각 : {plan.date}</span>
+              <br/>
+              <span className="textCenter">{remainClock(plan.date)}</span>
+            </div>
+            <div className="divDelete" key={index}>
+              <button onClick={deleteRaid}>일정 삭제</button>
+            </div>
+          </div>
+        ))}
       </div>
     )}
   else {

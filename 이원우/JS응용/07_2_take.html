@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="cart"></div>
+  </body>
+
+  <script>
+    //map, reduce 함수를 새로 만들지 않는 방향으로 해봄.
+    const go = (...args) => args.reduce((a, f) => f(a));
+    const pipe =
+      (f, ...fs) =>
+      (...as) =>
+        go(f(...as), ...fs);
+    const curry =
+      (f) =>
+      (a, ..._) =>
+        _.length ? f(a, ..._) : (..._) => f(a, ..._);
+    const add = (a, b) => a + b;
+
+    const range = (l) => {
+      let i = -1;
+      let res = [];
+      while (++i < l) {
+        res.push(i);
+      }
+      return res;
+    };
+
+    console.log(range(5));
+  </script>
+
+  <script>
+    //map, reduce 함수를 새로 만들지 않는 방향으로 해봄.
+    const L = {};
+    L.range = function* (l) {
+      let i = -1;
+
+      while (++i < l) {
+        //제네레이터로 생성
+        yield i;
+      }
+      return res;
+    };
+
+    console.log(range(5));
+    console.log(L.range(5).next().value); // 직접 순회할 때 마다 꺼내옴. 미리 생성 X
+  </script>
+
+  <script>
+    const take = curry((l, iter) => {
+      let res = [];
+      for (const a of iter) {
+        res.push(a);
+        if (res.length == l) return res;
+      }
+      return res;
+    });
+    console.log(range(100));
+    
+    console.log(take(5, range(100)));
+    console.log(take(5, L.range(100)));
+
+    console.time('');
+    console.log(take(5, range(Infinity)));
+    console.timeEnd('');
+    //아래는 똑같이 5만큼만 시간이 들지만 위는 브라우저가 감당하지 못함
+    console.time('');
+    console.log(take(5, L.range(Infinity)));
+    console.timeEnd('');
+
+    //go
+    go(
+      L.range(10000),
+      take(5),
+      reduce(add),
+      console.log
+    );
+  </script>
+</html>

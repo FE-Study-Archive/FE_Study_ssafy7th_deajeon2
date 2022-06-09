@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="cart"></div>
+  </body>
+
+  <script>
+    //map, reduce 함수를 새로 만들지 않는 방향으로 해봄.
+    const go = (...args) => args.reduce((a, f) => f(a));
+    const pipe =
+      (f, ...fs) =>
+      (...as) =>
+        go(f(...as), ...fs);
+    const curry =
+      (f) =>
+      (a, ..._) =>
+        _.length ? f(a, ..._) : (..._) => f(a, ..._);
+
+    const products = [
+      { name: "반팔티", price: 15000, quantity: 1, is_selected: true },
+      { name: "긴팔티", price: 20000, quantity: 2, is_selected: false },
+      { name: "핸드폰케이스", price: 15000, quantity: 3, is_selected: true },
+      { name: "후드티", price: 30000, quantity: 4, is_selected: false },
+      { name: "바지", price: 25000, quantity: 5, is_selected: false },
+    ];
+    //#1
+    go(
+      products.map((p) => p.quantity).reduce((a, b) => a + b),
+      console.log
+    );
+    //일반 함수가 아닌 내장 함수를 사용할 땐 도움이 안된다.
+
+    //#2
+    const total = products.map((p) => p.quantity).reduce((a, b) => a + b);
+    console.log(total);
+    //#--------------------------------------
+
+    const add = (a, b) => a + b;
+    const sum = curry((f, iter) => go(iter.map(f).reduce(add)));
+
+    // const total_quantity = products => sum(p => p.quantity, products) //총 개수
+    // const total_quantity = products => sum(p => p.quantity)(products) //총 개수
+    const total_quantity = sum((p) => p.quantity); //curry로 인해 축약 가능
+
+    const total_price = sum((p) => p.quantity * p.price); //총 가격
+
+    document.querySelector("#cart").innerHTML = `
+      <table>
+        <tr>
+          <th>상품 이름</th>
+          <th>가격</th>
+          <th>수량</th>
+          <th>총 가격</th>
+          </tr>
+          <tr>
+            ${go(products,
+              sum(p => `
+              <tr>
+                <td>${p.name}</td>
+                <td>${p.price}</td>
+                <td><input type="number" value="${p.quantity}"></td>
+                <td>${p.price * p.quantity}</td>  
+              </tr>
+              `)
+              )}
+          </tr>
+          
+          <tr>
+            <td colspan="2">합계</td>
+            <td>${total_quantity(products)}</td>
+            <td>${total_price(products)}</td>
+            </tr>
+      
+        </table>
+    `;
+  </script>
+</html>

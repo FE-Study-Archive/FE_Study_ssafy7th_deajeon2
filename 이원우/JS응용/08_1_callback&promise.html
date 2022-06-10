@@ -1,0 +1,24 @@
+<script src="./fx.js"></script>
+
+
+##Promise
+
+
+<script>
+  //일반 콜백함수로 비동기를 구현
+  function add10(a, callback) {
+    setTimeout(() => callback(a + 10), 1000);
+  }
+  
+  add10(5, res => {
+    log(res);
+  })
+
+  // promise 활용
+  function add20(a) {
+    return new Promise(resolve => setTimeout(() => resolve(a+20), 100));
+  }
+
+  add20(5)
+  .then(log);
+</script>

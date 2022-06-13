@@ -13,7 +13,7 @@
   <script type="text/javascript">
     var h1 = React.createElement('h1', null, 'Hello world!') // h1요소를 React 엘리먼트로 생성하여 변수에 담기
     ReactDOM.render( // h1 요소를 ID가 content인 실제 DOM에 렌더링
-      h1,
+      React.createElement('div', null, h1, h1), // 세번째 또는 그 이후의 매개변수가 문자열이 아니라면, 새로 생성하는 엘리먼트의 자식 엘리먼트
       document.getElementById('content')
     )
   </script>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="js/react.js"></script>
+  <script src="js/react-dom.js"></script>
+</head>
+<body>
+  <div id="content"></div>
+  <script type="text/javascript">
+    let h1 = React.createElement('h1', null, 'Hello world!') // h1요소를 React 엘리먼트로 생성하여 변수에 담기
+    class HelloWorld extends React.Component { // React 컴포넌트 클래스 정의(이름은 대문자로 시작)
+      render() { // 엘리먼트 하나를 반환하는 함수인 render() 메서드 생성
+        return React.createElement(
+          'h1',
+          this.props, // HelloWorld 컴포넌트로 전달한 모든 속성을 createElement를 호출할 때 <h1> 엘리먼트로 전달한다.
+          'Hello ' + this.props.frameworkName + ' world!!!'
+        )
+      }
+    }
+    ReactDOM.render( // React 엘리먼트를 ID가 content인 실제 DOM에 넣어준다.
+      React.createElement(
+        'div',
+        null,
+        React.createElement(HelloWorld, {
+          id: 'ember',
+          frameworkName: 'Ember.js',
+          title: 'A framework for creating ambitious web applications.'
+        }),
+        React.createElement(HelloWorld, {
+          id: 'backbone',
+          frameworkName: 'Backbone.js',
+          title: 'Backbone.js gives structure to web applications...'
+        }),
+        React.createElement(HelloWorld, {
+          id: 'angular',
+          frameworkName: 'Angular.js',
+          title: 'Superheroic JavaScript MVW Framework'
+        })
+        ), // 첫 번째 인자로 HelloWorld 클래스를 전달하여 엘리먼트를 생성한다. 이 때 HelloWorld 클래스는 문자열이 아닌 객체다.
+      document.getElementById('content')
+    )
+  </script>
+</body>
+</html>

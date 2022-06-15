@@ -9,7 +9,7 @@
 
 [ 박승훈 ]
 - 달성 목표 : 자바스크립트 중급 + 타입스크립트 초급 강의 완주
-- 달성 현황 : 
+- 달성 현황 : 자바스크립트 중급 수강 완료
 
 [ 박재경 ]
 - 달성 목표 : css 강의 1분 코딩 2개(인터렉티브 웹 개발 제대로 시작하기, 애플 웹사이트 인터랙션 클론), 정보올림피아드 L_coder 풀기
@@ -88,7 +88,15 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 
 ## 3. HISTORY Record
 
+### 2022.06.
+
+[2022.06.03.] 스터디 15번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220603%5Dmeeting_15.md))
+
+<br>
+
 ### 2022.05.
+
+[2022.05.13.] 스터디 14번째 회의 및 주간 학습내용 발표([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220513%5Dmeeting_14.md))
 
 [2022.05.07.] 스터디 13번째 회의 및 React 프로젝트 3주차 발표([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220507%5Dmeeting_13.md))
 

@@ -28,12 +28,39 @@
     go(
       [Promise.resolve(1), Promise.resolve(2), Promise.resolve(3)],
       map(a => a + 10),
+      L.filter
+      C.take
       log);
     go(
       [Promise.resolve(1), Promise.resolve(2), Promise.resolve(3)],
       map(a => Promise.resolve(a + 10)),
       log);
+
 ```
+
+```js
+const go1 = (a, f) => a instanceof Promise ? a.then(f) : f(a);
+
+const reduce = curry((f, acc, iter) => {
+  if (!iter) {
+    iter = acc[Symbol.iterator]();
+    acc = iter.next().value;
+  } else {
+    iter = iter[Symbol.iterator]();
+  }
+  return go1(acc, function recur(acc) {
+    let cur;
+    while (!(cur = iter.next()).done) {
+      const a = cur.value;
+      acc = f(acc, a);
+      if (acc instanceof Promise) return acc.then(recur);
+    }
+    return acc;
+  });
+});
+```
+
+
 
 - then으로만 재귀 없이 처리해준다면, go를 통한 연산 중간에 비동기 연산을 하면, 그 아래의 모든 연산이 then으로 비동기적으로 묶여버린다. 그렇기에 재귀를 통해 Promise 구문의 연산이 끝나면, **재귀를 통해 다음 구문이 Promise인지 즉시 판단**해줄 수 있다.
 

@@ -54,6 +54,14 @@ HTML, CSS, JavaScript, React.js, Vue.js 를 SSAFY 과정과 겸하여 공부하�
 
 ## 3. HISTORY Record
 
+### 2022.07.
+
+[2022.07.08.] 스터디 지식공유
+
+[2022.07.01.] 스터디 18번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220701%5Dmeeting_18.md))
+
+<br>
+
 ### 2022.06.
 
 [2022.06.24.] 스터디 17번째 회의([회의록](https://github.com/Orchemi/FE_Study_ssafy7th_deajeon2/blob/master/%EA%B3%B5%ED%86%B5/3.%20Meeting%20Log/%5B220624%5Dmeeting_17.md))
